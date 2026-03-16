@@ -1,0 +1,26 @@
+# Core
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9      # Required for Form() in FastAPI
+
+# Twilio
+twilio==9.3.3
+
+# LLM / AI (Phase 2 additions — install when ready)
+# openai-whisper==20240930     # Local STT
+# TTS==0.22.0                  # Coqui TTS
+
+# Database (Phase 3)
+# asyncpg==0.29.0
+# sqlalchemy[asyncio]==2.0.35
+# alembic==1.13.3
+# pgvector==0.3.2
+
+# HTTP client (used by LLM service)
+httpx==0.27.2
+
+# Config
+pydantic-settings==2.5.2
+
+# Utilities
+python-dotenv==1.0.1
